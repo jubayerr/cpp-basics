@@ -1,9 +1,15 @@
 #include <iostream>
 using namespace std;
-
+// while loop
 int main()
 {
-    cout << "while" << endl;
+    int index = 1;
+
+    while (index <= 5)
+    {
+        cout << index << endl;
+        index++;
+    }
 
     return 0;
 }
