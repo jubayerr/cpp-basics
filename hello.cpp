@@ -1,6 +1,10 @@
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    cout << "You can never understand everything. But, you should push yourself to understand the system!" << endl;
+    cout << "- Ryan Dahl (Creator of Node JS)" << endl;
+
+    return 0;
 }
