@@ -15,6 +15,17 @@ public:
         author = aAuthor;
         pages = aPages;
     }
+    bool isCostly()
+    {
+        if (pages >= 600)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 };
 
 int main()
@@ -26,6 +37,7 @@ int main()
     cout << book1.title << endl;
     cout << book1.author << endl;
     cout << book1.pages << endl;
+    cout << book2.isCostly() << endl;
 
     return 0;
 }
